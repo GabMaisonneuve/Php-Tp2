@@ -1,0 +1,118 @@
+/* style.css - Warm, cozy theme */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff8f0;
+  margin: 0;
+  padding: 20px;
+  color: #3d2c2c;
+}
+
+h1,
+h2 {
+  color: #6f3e2e;
+}
+
+form {
+  background-color: #fff3e6;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #5a3e36;
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #d1a58b;
+  border-radius: 8px;
+  background-color: #fffaf7;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+form select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #d1a58b;
+  border-radius: 8px;
+  background-color: #fffaf7;
+  box-sizing: border-box;
+  font-size: 1em;
+  color: #3d2c2c;
+}
+
+form input[type="submit"] {
+  background-color: #d17842;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #bb6233;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+article {
+  background-color: #fffdfb;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+article h2 {
+  margin-top: 0;
+  color: #8b4e37;
+}
+
+article p {
+  color: #5f4436;
+  line-height: 1.4;
+}
+
+a.button-link {
+  display: inline-block;
+  background-color: #d17842;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+a.button-link:hover {
+  background-color: #bb6233;
+}
+
+.errors {
+  background-color: #ffe5e5;
+  border: 1px solid #cc0000;
+  color: #cc0000;
+  padding: 10px;
+  margin-bottom: 15px;
+  list-style-type: square;
+}
